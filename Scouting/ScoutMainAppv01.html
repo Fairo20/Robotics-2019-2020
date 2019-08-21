@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+	<title> Match Scouting </title>
+</head>
+
+<body>
+	<h1> Match Scouting </h1>
+	<form action = "">
+		<fieldset>
+			<legend>Robot Information</legend>
+			<p>
+				<label>Team #</label>
+				<input type = "text"/>
+			</p>
+			<p>
+				<label>Short Description of Robot</label>
+				<p> <textarea id = "robotDescription" rows="10" cols="40"></textarea> </p>
+			</p>
+				
+		</fieldset>
+		<fieldset>
+			<legend>Auton</legend>
+			<p>
+				<label>Cargo Ship Hatches</label>
+				<input type = "number" min="0" max="8"/>
+			</p>
+			<p>
+				<label>Cargo Ship Balls</label>
+				<input type = "number" min="0" max="8"/>
+			</p>
+			<p>
+				<label>Rocket Ship Hatches</label>
+				<input type = "number" min="0" max="12"/>
+			</p>
+			<p>
+				<label>Rocket Ship Balls</label>
+				<input type = "number" min="0" max="12"/>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Scoring</legend>
+			<p>
+				<label>Cargo Ship Hatches</label>
+				<input type = "number" min="0" max="8"/>
+			</p>
+			<p>
+				<label>Cargo Ship Balls</label>
+				<input type = "number" min="0" max="8"/>
+			</p>
+			<p>
+				<label>Rocket Ship Hatches</label>
+				<input type = "number" min="0" max="12"/>
+			</p>
+			<p>
+				<label>Rocket Ship Balls</label>
+				<input type = "number" min="0" max="12"/>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Post-Match</legend>
+			<p>
+				<label>Rocket complete?</label>
+				<p> <select id = "rocket">
+					<option value = "#000000">None</option>
+					<option value = "#000000">1 Rocket</option>
+					<option value = "#000000">2 Rockets</option>
+					</select>
+			</p>
+			<p>
+				<label>Climb?</label>
+				<p> <select id = "climb">
+					<option value = "#000000">No</option>
+					<option value = "#000000">Level 1</option>
+					<option value = "#000000">Level 2</option>
+					<option value = "#000000">Level 3</option>
+					</select>
+				</p>
+		</fieldset>
+		<fieldset>
+			<input type = "submit" />
+		</fieldset>
+	</form>
+</body>
+</html>
